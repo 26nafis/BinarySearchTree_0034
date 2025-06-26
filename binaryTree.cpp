@@ -53,7 +53,19 @@ public:
         Node *currentNode = nullptr;
         search(x. parent, currentNode);
 
-       
+        //step 5 : if parent is null (tree is empty)
+        if (parent == nullptr)
+        {
+            //5a : mark the new node as ROOT
+            ROOT = newNode;
+
+            //5b : exit
+            return;
+        }
+
+        //step 6 : if the value in the data field of new node less then that
+        if(x < parent->info)
+    };
     
 };
 
