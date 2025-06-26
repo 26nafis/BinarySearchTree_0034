@@ -32,5 +32,21 @@ public:
         ROOT = nullptr; // initializing ROOT to null
     }
 
+    void insert()
+    {
+        int x;
+        cout << "Masukkan Nilai: ";
+        cin >> x;
 
+        //step 1 : Allocate memory for the new node
+        Node *newNode = new Node();
+
+        //setp 2 : assign value to the data field of new node
+        newNode->info = x;
+
+        //step 3 : Make the left and right child of the new node point
+        
+
+    }
+}
 
